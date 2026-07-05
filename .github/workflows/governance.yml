@@ -1,0 +1,6 @@
+# thin caller (ADR-0249 P2 SSOT) — docs type
+name: Governance
+on: [push, pull_request]
+jobs:
+  governance:
+    uses: ProsperaGen/prospera-infra-ci/.github/workflows/reusable-governance.yml@main
